@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <script>
+       var nilai1 = parseInt(prompt('silahkan masukan angka pertama'));
+       var nilai2 = parseInt(prompt('silahkan masukan angka kedua'));
+       var operasi = prompt('operasi nya? tambah, kurang, kali, bagi, pangkat, akar, min, max');
+
+       if (operasi == 'tambah'){
+           alert (nilai1+nilai2);
+       } else if (operasi == 'kurang'){
+           alert (nilai1-nilai2);
+       } else if (operasi == 'kali'){
+           alert (nilai1*nilai2);
+       } else if (operasi == 'bagi'){
+           alert (nilai1/nilai2);
+       } else if (operasi == 'pangkat'){
+           alert (Math.pow(nilai1,nilai2));
+       } else if (operasi == 'akar'){
+           alert (Math.sqrt(nilai1,nilai2)); 
+       } else if (operasi == 'min'){
+           alert (Math.min(nilai1,nilai2));   
+       } else if (operasi == 'max'){
+           alert (Math.max(nilai1,nilai2)); 
+       } else{
+           alert ('silahkan coba lagi');
+       };
+        </script>
+    </body>
+</html>
